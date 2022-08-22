@@ -1,0 +1,362 @@
+/*Roboto Slaf 400, 700
+  Roboto 400 500 700 900
+  Roboto Mono 400 500 700
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+  font-size: 400;
+}
+
+.home-body{
+  position: static;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+/*HEADER*/
+
+header{
+  width: 100%;
+  height: 140%;
+  display: grid;
+  grid-template-rows: 1fr 1fr; /*Sirve para crear filas*/
+}
+
+.social{
+  background-color: #af8a10;
+  width: 100%;
+  height: 50px;
+  display: grid;
+}
+
+.social-icons{
+  width: 250px;
+  height: auto;
+  display: flex; /*Sirve para acomodar los objetos mas bonitos*/
+  align-items: center; /*Para acomodar los items en el medio de la pagina*/
+  justify-content: space-between;
+  justify-self: center; /*Sirve para alinear los objetos hacia un lado*/
+  margin-right: 50px;   /*Para moverlo a la derecha, en este caso, lejos de la derecha*/
+
+}
+
+.social-icons a{
+  color: white;
+  font-size: 28px;
+}
+
+.social-icons a:hover{
+  color: #616161;
+}
+
+.nav{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  height: 90px;
+  
+}
+
+.nav-logo{
+  margin-right: 50px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+}
+
+.nav-link{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+/*Main del home*/
+
+.home-main{
+  margin-top: 110px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
+  background-image: url('../img/gatitosdorados.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 180px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.main-container{
+  display: grid;
+  grid-column: 2;
+  justify-items: center;
+  height: 350px;
+  margin-top: 80px;
+}
+
+.main-container__text{
+  text-align: center;
+  font-size: 40px;
+  font-family: 900;
+  letter-spacing: 8px;
+  color: white;
+  font-weight: 400;
+}
+
+.main-container__link{
+  background-color: #af8a10;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.main-container__link:hover{
+  color: #616161;
+}
+
+
+/*PAGINA DE BLOGS*/
+
+.blogs-main{
+  display: grid;
+  margin-top: 50px;
+}
+
+.news{
+  background-color: #af8a10 ;
+  padding: 10px 80px 40px;
+}
+
+.news-conter{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+}
+
+.news-conter img{
+  grid-column: 1;
+  width: 95%;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.news-info{
+  grid-column: 2;
+
+}
+
+.news-info h2{
+  margin-top: 20px;
+}
+
+.news-info p{
+  margin: 30px 0;
+}
+
+/*Botones*/
+.blogs-btn{
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+
+}
+
+/*POST*/
+
+.post{
+  padding: 0 80px 40px;
+}
+
+.post h3{
+  border-bottom: 1px solid #af8a10 ;
+  padding: 20px 0;
+  text-align: center;
+
+}
+
+.post-blogs{
+  display: inline-block;
+  padding: 15px;
+  max-width: 30%;
+  margin-bottom: 50px;
+}
+
+.post-blogs img{
+  width: 100%;
+}
+
+.post-blogs h4{
+  margin: 20px 0;
+
+}
+
+.post-blogs p{
+  margin-bottom: 35px;
+}
+
+/*FOOTER*/
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: #af8a10;
+  border-top: 35px solid #af8a10;
+  
+}
+footer p{
+  color: white;
+  text-align: center;
+  
+}
+
+/*BLOG PERSONAL*/
+
+.main-blog{
+  padding: 0 80px 40px;
+
+}
+
+.main-blog__content img{
+  display: inline-block;
+  padding: 60px 50px 40px 0;
+  width: 100%;
+  
+}
+
+.blog-content__article{
+  padding: 0 80px 40px;
+}
+
+.blog-content__article h4{
+  border-bottom: 1px solid black;
+  padding: 20px 0;
+}
+
+.blog-content__article h1{
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+/*CONTACTO*/
+
+.section-contact{
+  width: 100%;
+  background-color: rgb(125, 111, 111);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px 50px;
+}
+
+.contact{
+  display: flex;
+  margin: 20px 0px 20px 20px;
+}
+
+.contact img{
+  width: 100px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.contact-info{
+  padding: 20px 0;
+  width: 300px;
+}
+
+.contact-info a{
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+}
+
+.contact-info p{
+  margin-top: 5px;
+}
+
+
+/*PROFILE*/
+
+.profile{
+ padding: 70px 100px;
+ background-color: #e6e9ed;
+ margin-bottom: 5px;
+ margin-top: 110px;
+ font-display: flex;
+}
+
+.profile img{
+  width: 320px;
+  margin-right: 10px;
+
+}
+
+.profile-img{
+  text-align: center;
+}
+
+.profile-info h2{
+  text-align: center;
+
+}
+
+.profile-info p{
+  text-align: center;
+}
+
+.project-container{
+  padding: 0 80px 40px;
+
+}
+
+.project-container h3{
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 1%;
+}
+
+.project{
+  display: inline-block ;
+  padding: 15px;
+  max-width: 32%;
+  margin-bottom: 50px;
+}
+
+.project h4{
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.project p{
+  margin-bottom: 35px ;
+  font-size: 16px;
+}
