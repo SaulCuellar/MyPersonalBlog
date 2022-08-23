@@ -1,7 +1,4 @@
-/*Roboto Slaf 400, 700
-  Roboto 400 500 700 900
-  Roboto Mono 400 500 700
-*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 
@@ -119,8 +116,8 @@ header{
   font-size: 40px;
   font-family: 900;
   letter-spacing: 8px;
-  color: white;
-  font-weight: 400;
+  color: #473601;
+  font-weight: 450;
 }
 
 .main-container__link{
