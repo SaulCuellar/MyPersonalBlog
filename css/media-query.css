@@ -80,7 +80,7 @@
     }
 
     .main-container__text{
-        font-size: 25px;
+        font-size: 35px;
         
     }
 
@@ -135,13 +135,20 @@
 
     .section-contact{
         padding: 10px;
-        display: grid;
         display: flex;
+        max-height: 100%;
+        max-width: 100%;
     }
     .contact{
         display: grid;
         margin: 0px;
+       
     }
+
+    .contact-info{
+        width: 100%;
+    }
+    
 
     /*Página de Perfil*/
     .profile{
