@@ -149,13 +149,13 @@ header{
   padding: 10px 80px 40px;
 }
 
-.news-conter{
+.news-content{
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 2fr;
 }
 
-.news-conter img{
+.news-content img{
   grid-column: 1;
   width: 95%;
   display: inline-block;
@@ -188,25 +188,25 @@ header{
 
 /*POST*/
 
-.post{
+.posts{
   padding: 0 80px 40px;
 }
 
-.post h3{
+.posts h3{
   border-bottom: 1px solid #af8a10 ;
   padding: 20px 0;
   text-align: center;
 
 }
 
-.post-blogs{
+.posts-blog{
   display: inline-block;
   padding: 15px;
   max-width: 30%;
   margin-bottom: 50px;
 }
 
-.post-blogs img{
+.posts-blog img{
   width: 100%;
 }
 
@@ -215,7 +215,7 @@ header{
 
 }
 
-.post-blogs p{
+.posts-blog p{
   margin-bottom: 35px;
 }
 

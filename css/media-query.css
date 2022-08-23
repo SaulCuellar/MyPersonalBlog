@@ -113,16 +113,15 @@
     }
     .posts{
         width: 100%;
-        padding: 5px;
+        padding: 0px;
     }
     .posts-blog{
         max-width:  100%;
+        padding: 5px;
+        margin-bottom: 5px;
     }
    
-    .posts-blog img{
-        width: 412px;
-        height: 172px;
-    }
+
     /*Página de Blog*/
     .main-blog{
         padding: 10px;
